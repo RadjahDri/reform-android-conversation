@@ -194,7 +194,7 @@ Usage: "+sys.argv[0]+" csvSMS [csvContacts] [file.html]\n\
 	listConversation = []
 	if(sys.argv[len(sys.argv)-1].endswith('html')):
 		htmlOuput = open(sys.argv[len(sys.argv)-1], 'w')
-		htmlOuput.write('<html><head><title>Android conversation</title><meta charset="utf-8"></head><body><input type="button" value="Expend" onclick="expendAll()" /><input type="button" value="Collapse" onclick="collapseAll()" /><br/>')
+		htmlOuput.write('<html><head><title>Android conversation</title><meta charset="utf-8"></head><body><h1>Conversation SMS</h1><hr/><input type="button" value="Expend" onclick="expendAll()" /><input type="button" value="Collapse" onclick="collapseAll()" /><hr/><br/>')
 		cmpt = 1
 		for c in discussions:
 			listConversation.append(discussions[c])
