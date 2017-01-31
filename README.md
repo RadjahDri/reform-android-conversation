@@ -6,6 +6,8 @@ Two files are used to this:
 - mmssms.db: store all sms
 - contacts.db: store contact informations (Optionnal)
 
+If you have any question about my works, don't hesitate to contact me by issues.
+
 ## Usage
 ### Preparation
 First you must have sqlitebrowser to extract csv files from database files:
